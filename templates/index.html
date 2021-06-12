@@ -1,0 +1,73 @@
+<html>
+<head>
+</head>
+<title> Phishing Classification</title>
+
+<style>
+    body {
+        background-image: url(/static/abc.png);
+        background-size: cover;
+    }
+
+    .Class1 {
+        text-align: center;
+        margin-top: 5%;
+    }
+    button {
+        color: rgb(255, 255, 255);
+        background-color: black;
+        font-size: 18px;
+        width: 150px;
+        height: 40px;
+        padding: 7px 10px;
+        border-radius: 15px;
+        border: 2px solid black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+
+    }
+    button:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-size: 50px;
+        margin-top: 15%;
+    }
+    input {
+        width: 25%;
+        height: 5%;
+        padding: 10px 10px;
+        font-size: 18px;
+    }
+    h3 {
+        color: red;
+        font-size: 30px;
+        margin-top: 90px;
+    }
+</style>
+
+
+<body>
+
+    <h1> PHISHING CLASSIFIER </h1>
+<div class="Class1">
+
+    <div>
+<form method="post" action="{{ url_for('predict') }}">
+    <input type="text" name="URL" id="URL" placeholder="Enter the URL" required>
+    <br><br>
+    <button type="submit"> SUBMIT </button>
+</form>
+
+<h3> {{predictions_texts}} </h3>
+<h3> {{prediction_text}} </h3>
+</div>
+</div>
+</body>
+</html>
