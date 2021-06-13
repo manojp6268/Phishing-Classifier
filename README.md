@@ -2,6 +2,7 @@
 Extracting the features of URLs and then classifying them as legitimate or phishing website.
 
 To run this app follow the steps
+
 Step 1: Clone/ Download the zip  and unzip the file
 
 Step 2: Create a new environment 
