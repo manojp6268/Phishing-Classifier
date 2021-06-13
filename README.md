@@ -11,7 +11,7 @@ Open Anaconda Prompt and type in
 
 (for windows user search inside start menu )
 
-for Ubuntu and Mac user you can open your terminal)
+for Linux and Mac user you can open your terminal)
 
 
 $ conda create -n (environment name) python==3.7
