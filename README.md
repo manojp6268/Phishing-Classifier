@@ -3,6 +3,7 @@ Extracting the features of URLs and then classifying them as legitimate or phish
 
 To run this app follow the steps
 Step 1: Clone/ Download the zip  and unzip the file
+
 Step 2: Create a new environment 
 In case of Anaconda navigator, open Anaconda Prompt and type in
 $ conda create -n (environment name) python==3.7
