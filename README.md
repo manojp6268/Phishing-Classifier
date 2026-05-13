@@ -1,6 +1,6 @@
 # 🔐 Phishing Website Classifier
  
-> *A machine learning system that looks at a URL the way a security analyst would — and decides in milliseconds whether to trust it.*
+> *A machine learning system that looks at a URL the way a security analyst would - and decides in milliseconds whether to trust it.*
  
 [![Python](https://img.shields.io/badge/Python-3.7-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-Web_App-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
@@ -11,7 +11,7 @@
  
 ## What this does
  
-Phishing attacks rely on URLs that *look* legitimate but aren't. This project builds a classifier that extracts structural and lexical features directly from a URL — no page loading, no external API calls — and predicts whether it's a phishing attempt or legitimate.
+Phishing attacks rely on URLs that *look* legitimate but aren't. This project builds a classifier that extracts structural and lexical features directly from a URL - no page loading, no external API calls - and predicts whether it's a phishing attempt or legitimate.
  
 The result: a live web application where you paste any URL and get an instant prediction.
  
@@ -81,13 +81,13 @@ Phishing-Classifier/
  
 ## Run it locally
  
-**Step 1 — Clone the repo**
+**Step 1 - Clone the repo**
 ```bash
 git clone https://github.com/manojp6268/Phishing-Classifier.git
 cd Phishing-Classifier
 ```
  
-**Step 2 — Create and activate environment**
+**Step 2 - Create and activate environment**
 ```bash
 # Create environment
 conda create -n phishing-classifier python==3.7
@@ -97,12 +97,12 @@ conda activate phishing-classifier          # Windows
 source activate phishing-classifier         # Mac/Linux
 ```
  
-**Step 3 — Install dependencies**
+**Step 3 - Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
  
-**Step 4 — Run the app**
+**Step 4 - Run the app**
 ```bash
 python app.py
 ```
@@ -115,19 +115,19 @@ Open your browser at `http://localhost:5000` and paste any URL to classify it.
  
 ## Tech stack
  
-- **Python 3.7** — core language
-- **Scikit-learn** — SVM and MLP model training
-- **Pandas / NumPy** — data processing and feature engineering
-- **Flask** — web application framework
-- **Heroku** — deployment platform
-- **Jupyter Notebooks** — exploration and model training
+- **Python 3.7** - core language
+- **Scikit-learn** - SVM and MLP model training
+- **Pandas / NumPy** - data processing and feature engineering
+- **Flask** - web application framework
+- **Heroku** - deployment platform
+- **Jupyter Notebooks** - exploration and model training
 ---
  
 ## Background
  
 This project originated from published research:
  
-> *"Detection and Classification of Phishing Websites"* — Manoj P. et al. (2021)
+> *"Detection and Classification of Phishing Websites"* - Manoj P. et al. (2021)
 > Applied ML classifiers with feature engineering to identify fraudulent web patterns at high accuracy.
  
 The classifier in this repo is the working implementation of that research, taken from paper to production.
@@ -136,7 +136,7 @@ The classifier in this repo is the working implementation of that research, take
  
 ## Author
  
-**Manoj Prakash** — Data Scientist & AI/ML Engineer
+**Manoj Prakash** - Data Scientist & AI/ML Engineer
 Currently pursuing M.Sc. Data Science @ Universität Trier, Germany.
 Previously Software Developer II @ Oracle Cerner Healthcare.
  
